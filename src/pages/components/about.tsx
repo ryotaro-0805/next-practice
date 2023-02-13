@@ -2,9 +2,7 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
-export default function Home(props:any) {
-  const fnc=props.all.countUpFnc;
-  console.log(fnc)
+export default function About() {
   return (
     <>
       <Head>
@@ -15,10 +13,8 @@ export default function Home(props:any) {
       </Head>
       <main>
         <div>
-          <h3>Top Page</h3>
-          <Link href='/components/about'>Goto About</Link>
-          <br />
-          <button onClick={fnc}>増加</button>
+          <h3>About Page</h3>
+          <Link href='/'>Back to the Top Page</Link>
         </div>
       </main>
     </>
