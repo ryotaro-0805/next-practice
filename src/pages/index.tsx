@@ -20,6 +20,14 @@ export default function Home(props:any) {
           <br />
           <button onClick={fnc}>増加</button>
         </div>
+        
+        {/* レスポンシブデザイン */}
+        <div className={styles.respo_div}>
+          <h3 className={styles.respo_h3}>ここにレスポンシブのテキストボックスを作ります。</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor id sapiente, quos, minima voluptatibus sed enim fugiat at distinctio, iste porro pariatur. In qui eius sit doloremque? Aliquam expedita quidem odio quia eaque repudiandae velit iure quam. Perferendis, quo quos est nam nulla blanditiis provident consequatur necessitatibus molestias eligendi expedita quidem architecto recusandae explicabo beatae. Dolores eveniet vel eius molestiae tenetur ullam vero neque saepe at obcaecati necessitatibus animi sed dicta totam, maiores perspiciatis quia eos rerum voluptatem enim placeat blanditiis eum voluptates consequuntur! Voluptas accusamus aperiam nostrum minus officia, aliquam recusandae natus nemo iusto ducimus accusantium omnis expedita! Nulla?
+          </p>
+        </div>
+        
       </main>
     </>
   )
