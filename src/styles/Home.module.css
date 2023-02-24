@@ -1,0 +1,10 @@
+.apper_div{
+    width: 100px;
+    height: 500px;
+    background-color: azure;
+    transition: 1s;
+}
+
+.active{
+    background-color: rgb(233, 174, 174);
+}

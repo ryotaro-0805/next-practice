@@ -9,10 +9,10 @@ export default function App({ Component, pageProps }: AppProps) {
   const allData={setCounter,countDownFnc,countUpFnc}
   return (
     <>
-      <Component {...pageProps} all={allData} />
       <p>現在の数字は{counter}です。</p>
       <button onClick={countUpFnc}>+</button>
       <button onClick={countDownFnc}>-</button>
+      <Component {...pageProps} all={allData} />
     </>
   )
 }

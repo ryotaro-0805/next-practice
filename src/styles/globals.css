@@ -1,0 +1,8 @@
+.test_div{
+    color: rgb(160, 156, 151);
+    transition: 1s;
+}
+
+.test_div.active{
+    color: red;
+}
