@@ -8,3 +8,14 @@
 .active{
     background-color: rgb(233, 174, 174);
 }
+/* 
+レスポンシブデザイン
+ */
+.respo_div{
+    margin-top: 10px;
+    border: solid 5px rgb(131, 131, 212);
+    padding: 10px;
+    margin-inline: auto;
+    width: min(80%,1000px);
+
+}

@@ -54,24 +54,6 @@ export default function Home(props: any) {
           <br />
           <button onClick={fnc}>増加</button>
         </div>
-
-        <button onClick={getFnc}>Get</button>
-        <p>test code</p>
-        <div className='test_div'>
-          <p>Apear1</p>
-        </div>
-        <div className='test_div'>
-          <p>Apear2</p>
-        </div>
-        <div className='test_div'>
-          <p>Apear3</p>
-        </div>
-        <div className='test_div'>
-          <p>Apear4</p>
-        </div>
-        <div className='test_div'>
-          <p>Apear5</p>
-        </div>
       </main>
     </>
   )
